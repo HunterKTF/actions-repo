@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: github-actions-test
 on: [push]
 jobs:
   check-bats-version:
@@ -13,3 +13,8 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: python --version
+      - run: apt-get update -y && apt-get install -y linux-image-extra-$(uname -r)
+      - run: apt-get install docker-engine -y
+      - run: service docker start
+      - run: docker run hello-world
+      
