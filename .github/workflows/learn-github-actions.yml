@@ -35,8 +35,8 @@ jobs:
         run: mkdir -p /opt/eagle-9.6.2
       - name: chown eagle
         run: sudo chown user:user /opt/eagle-9.6.2
-      - run: mkdir -p /home/usr/bin
+      - run: sudo mkdir -p /home/usr/bin
       - name: chown bin
-        run: chown -R user:user /home/user/bin
+        run: sudo chown -R user:user /home/user/bin
       # - name: 
         
