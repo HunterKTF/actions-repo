@@ -14,7 +14,5 @@ jobs:
       - run: bats -v
       - run: python --version
       - run: cd /
-      - run: sudo apt-get install docker-engine -y
-      - run: service docker start
-      - run: docker run hello-world
+      - run: sudo apt-get update && apt-get -y upgrade
       
