@@ -25,8 +25,9 @@ jobs:
       - name: set time zone
         run: sudo ln -sf /usr/share/zoneinfo/UTC /etc/localtime
       - run: sudo apt-get -y install locales
-      - run: sudo echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
-      - run: /usr/sbin/locale-gen
+      - run: sudo -i
+      - run: echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
+      - run: sudo /usr/sbin/locale-gen
       - name: install eagle dependencies
         run: sudo apt-get -y install libnspr4 libglib2.0-0 libnss3 libasound2 man-db
         
