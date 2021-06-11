@@ -19,7 +19,7 @@ jobs:
       - name: get packages
         run: sudo apt-get -y install tigervnc-standalone-server blackbox xterm libpulse0 command-not-found wget bzip2 xvfb xdotool
       - name: adduser
-        run: adduser --gecos 'User Name,,,' --disabled-password user
+        run: sudo adduser --gecos 'User Name,,,' --disabled-password user
       - name: download eagle
         run: wget -q -O /tmp/eagle.tar.gz https://www.autodesk.com/eagle-download-lin
       - name: set time zone
