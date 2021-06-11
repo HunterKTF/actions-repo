@@ -13,6 +13,5 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: python --version
-      - run: cd /
-      - run: sudo apt-get update && apt-get -y upgrade
-      
+      - name: get packages
+        run: sudo apt-get -y install tigervnc-standalone-server blackbox xterm libpulse0 command-not-found wget bzip2 xvfb xdotool
