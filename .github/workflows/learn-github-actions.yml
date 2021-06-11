@@ -10,8 +10,23 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
-      - run: npm install -g bats
-      - run: bats -v
-      - run: python --version
+      - name: install bats
+        run: npm install -g bats
+      - name: check bats version
+        run: bats -v
+      - name: check python version
+        run: python --version
       - name: get packages
         run: sudo apt-get -y install tigervnc-standalone-server blackbox xterm libpulse0 command-not-found wget bzip2 xvfb xdotool
+      - name: adduser
+        run: adduser --gecos 'User Name,,,' --disabled-password user
+      - name: download eagle
+        run: wget -q -O /tmp/eagle.tar.gz https://www.autodesk.com/eagle-download-lin
+      - name: set time zone
+        run: ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+      - run: sudo apt-get -y install locales
+      - run: echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
+      - run: /usr/sbin/locale-gen
+      - name: install eagle dependencies
+        run: sudo apt-get -y install libnspr4 libglib2.0-0 libnss3 libasound2 man-db
+        
