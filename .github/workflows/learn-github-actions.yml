@@ -41,7 +41,8 @@ jobs:
       - name: make bin directory
         run: mkdir bin
       - run: cd /
-      - name: chown bin
-        run: chown -R user:user /home/user/bin
+      - run: ls -ls /home/usr
+      # - name: chown bin
+      #   run: chown -R user:user /home/user/bin
       # - name: 
         
