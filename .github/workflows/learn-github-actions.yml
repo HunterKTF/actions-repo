@@ -10,6 +10,8 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
+      - name: install python requirements
+        run: pip install -r requirements.txt
       - name: install bats
         run: npm install -g bats
       - name: check bats version
