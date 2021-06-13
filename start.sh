@@ -10,7 +10,7 @@ sleep 5;
 export EAGLE_DIR=/opt/eagle-9.6.2;
 export DISPLAY=:1;
 export EAGLE_USER="rhernandez@valiot.io"
-export EAGLE_DIR="DeltaEcho9"
+export EAGLE_PSW="DeltaEcho9"
 
 # Eagle Auto Login.
 ${EAGLE_DIR}/eagle & sleep 40;
