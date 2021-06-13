@@ -47,7 +47,7 @@ jobs:
       - name: unzip
         run: tar zxpf /tmp/eagle.tar.gz
       - name: make eagle dir
-        run: mkdir /home/user/eagle
+        run: sudo mkdir /home/user/eagle
       - name: chmod start
         run: chmod +x test.sh
       - name: connect dummy display
