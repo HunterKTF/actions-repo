@@ -49,9 +49,11 @@ jobs:
       - name: make eagle dir
         run: sudo mkdir /home/user/eagle
       - name: chmod start
-        run: chmod +x test.sh
+        run: chmod +x start.sh
       - name: connect dummy display
-        run: ./test.sh
+        run: ./start.sh
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
+      - name: review contents
+        run: ls /home/user
         
