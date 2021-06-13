@@ -10,6 +10,8 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
+      - name: install python requirements
+        run: pip install -r requirements.txt
       - name: install bats
         run: npm install -g bats
       - name: check bats version
@@ -38,5 +40,18 @@ jobs:
       - run: sudo mkdir -p /home/user/bin
       - name: chown bin
         run: sudo chown -R user:user /home/user/bin
-      # - name: 
+      - name: chmod hello world
+        run: chmod +x test.sh
+      #- name: echo hello world
+      #  run: ./test.sh
+      - name: unzip
+        run: tar zxpf /tmp/eagle.tar.gz
+      - name: make eagle dir
+        run: sudo mkdir /home/user/eagle
+      - name: chmod start
+        run: chmod +x test.sh
+      - name: connect dummy display
+        run: ./test.sh
+      - name: remove zip
+        run: rm /tmp/eagle.tar.gz
         
