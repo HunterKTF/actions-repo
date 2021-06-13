@@ -42,6 +42,16 @@ jobs:
         run: sudo chown -R user:user /home/user/bin
       - name: chmod hello world
         run: chmod +x test.sh
-      - name: echo hello world
+      #- name: echo hello world
+      #  run: ./test.sh
+      - name: unzip
+        run: tar zxpf /tmp/eagle.tar.gz
+      - name: make eagle dir
+        run: mkdir /home/user/eagle
+      - name: chmod start
+        run: chmod +x test.sh
+      - name: connect dummy display
         run: ./test.sh
+      - name: remove zip
+        run: rm /tmp/eagle.tar.gz
         
