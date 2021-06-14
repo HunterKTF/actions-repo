@@ -9,7 +9,7 @@
     "output_type": "zip",
     "outputs": [
         {
-            "filename_prefix": "CAM/Gerbers",
+            "filename_prefix": "Gerbers",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
@@ -257,7 +257,7 @@
             ]
         },
         {
-            "filename_prefix": "CAM/Assembly",
+            "filename_prefix": "Assembly",
             "output_type": "assembly",
             "outputs": [
                 {
