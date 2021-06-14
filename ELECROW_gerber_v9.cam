@@ -14,7 +14,7 @@
                 "decimal": 4,
                 "integer": 3
             },
-            "generate_job_file": true,
+            "generate_job_file": false,
             "output_type": "gerber",
             "outputs": [
                 {
@@ -267,12 +267,6 @@
                     "name": "Bill of Material",
                     "output_format": "txt",
                     "type": "bom"
-                },
-                {
-                    "filename_format": "%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
-                    "name": "Pick and Place",
-                    "output_format": "txt",
-                    "type": "pick_and_place"
                 }
             ]
         },
