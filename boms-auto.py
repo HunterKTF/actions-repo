@@ -5,7 +5,7 @@
 # Import dependencies
 import requests
 import csv
-# import gspread
+import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from pprint import pprint
 import time
