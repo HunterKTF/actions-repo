@@ -9,7 +9,7 @@
     "output_type": "directory",
     "outputs": [
         {
-            "filename_prefix": "Assembly/Gerbers",
+            "filename_prefix": "CAM/Gerbers",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
@@ -257,7 +257,7 @@
             ]
         },
         {
-            "filename_prefix": "Assembly",
+            "filename_prefix": "CAM/Assembly",
             "output_type": "directory",
             "outputs": [
                 {
