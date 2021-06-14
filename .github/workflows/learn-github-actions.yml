@@ -62,6 +62,8 @@ jobs:
       - name: check contents
         run: ls /home/user
       - run: pip3 install gspread
+      - name: move python file
+        run: mv boms-auto.py /home/user/boms-auto.py
       - name: run python file
-        run: sudo python boms-auto.py
+        run: python /home/user/boms-auto.py
         
