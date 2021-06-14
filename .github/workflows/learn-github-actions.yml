@@ -10,8 +10,8 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
-      #- name: install python requirements
-      #  run: pip install -r requirements.txt
+      - name: install python requirements
+        run: pip install -r requirements.txt
       - name: install bats
         run: npm install -g bats
       - name: check bats version
@@ -55,4 +55,8 @@ jobs:
         run: rm /tmp/eagle.tar.gz
       - name: review contents
         run: ls /home/user
+      - name: grant permissions to python file
+        run: chmod +x boms-auto.py
+      - name: run python file
+        run: python boms-auto.py
         
