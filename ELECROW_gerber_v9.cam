@@ -14,7 +14,7 @@
                 "decimal": 4,
                 "integer": 3
             },
-            "generate_job_file": true,
+            "generate_job_file": false,
             "output_type": "gerber",
             "outputs": [
                 {
@@ -261,11 +261,11 @@
             "output_type": "assembly",
             "outputs": [
                 {
-                    "filename_format": "%ASSEMBLYPREFIX/%N",
+                    "filename_format": "%ASSEMBLYPREFIX/BOM_%N",
                     "list_attribute": true,
                     "list_type": "values",
                     "name": "Bill of Material",
-                    "output_format": "csv",
+                    "output_format": "txt",
                     "type": "bom"
                 },
                 {
