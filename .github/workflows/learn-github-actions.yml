@@ -55,5 +55,5 @@ jobs:
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
       - name: review contents
-        run: ls /home/user
+        run: ls /home
         
