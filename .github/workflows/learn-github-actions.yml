@@ -10,16 +10,10 @@ jobs:
         with:
           python-version: '3.7'
           architecture: 'x64'
-      - name: Install dependencies
-        run: |
-            python -m pip install --upgrade pip
-            pip install -r requirements.txt
       - name: install bats
         run: npm install -g bats
       - name: check bats version
         run: bats -v
-      - name: check python version
-        run: python --version
       - name: get packages
         run: sudo apt-get -y install tigervnc-standalone-server blackbox xterm libpulse0 command-not-found wget bzip2 xvfb xdotool
       - name: adduser
@@ -56,9 +50,13 @@ jobs:
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
       - name: review contents
-        run: ls /home/user
+        run: ls /home/user/bin
       - name: move creds
         run: sudo mv creds.js /home/user
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
       - name: grant permissions to python file
         run: chmod 777 boms-auto.py
       - name: check contents
