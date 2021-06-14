@@ -63,5 +63,5 @@ jobs:
         run: ls /home/user
       - run: pip3 install gspread
       - name: run python file
-        run: sudo python3 boms-auto.py
+        run: sudo python boms-auto.py
         
