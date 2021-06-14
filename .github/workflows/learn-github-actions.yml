@@ -59,6 +59,8 @@ jobs:
         run: sudo mv creds.js /home/user
       - name: grant permissions to python file
         run: chmod +x boms-auto.py
+      - name: check contents
+        run: ls /home/user
       - name: run python file
         run: python boms-auto.py
         
