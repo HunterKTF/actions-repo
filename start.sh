@@ -36,4 +36,3 @@ sleep 3
 # Verify outputs
 sudo ls /home/user/bin/
 sudo ls -ls /home/user/bin/Assembly/
-sudo ls -ls /home/user/bin/CAM/
