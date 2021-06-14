@@ -56,7 +56,7 @@ jobs:
       - name: review contents
         run: ls /home/user
       - name: move creds
-        run: mv creds.js /home/user
+        run: sudo mv creds.js /home/user
       - name: grant permissions to python file
         run: chmod +x boms-auto.py
       - name: run python file
