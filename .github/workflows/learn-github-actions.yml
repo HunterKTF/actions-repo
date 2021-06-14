@@ -40,10 +40,8 @@ jobs:
       - run: sudo mkdir -p /home/user/bin
       - name: chown bin
         run: sudo chown -R user:user /home/user/bin
-      - name: chmod hello world
-        run: chmod +x test.sh
-      #- name: echo hello world
-      #  run: ./test.sh
+      - run: mv ELECROW_gerber_v9.cam /home/user/ELECROW_gerber_v9.cam
+      - run: mv optoSensor.brd /home/user/optoSensor.brd
       - name: unzip
         run: tar zxpf /tmp/eagle.tar.gz
       - name: make eagle dir
