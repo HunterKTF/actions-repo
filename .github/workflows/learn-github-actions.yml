@@ -10,8 +10,10 @@ jobs:
         with:
           python-version: '3.7'
           architecture: 'x64'
-      - name: install python requirements
-        run: pip3 install -r requirements.txt
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
       - name: install bats
         run: npm install -g bats
       - name: check bats version
@@ -61,11 +63,8 @@ jobs:
         run: chmod 777 boms-auto.py
       - name: check contents
         run: ls /home/user
-      - run: pip3 install gspread
       - name: move python file
         run: sudo mv boms-auto.py /home/user/boms-auto.py
-      - name: check pip
-        run: pip3 freeze
       - name: run python file
-        run: sudo python3 /home/user/boms-auto.py
+        run: sudo python /home/user/boms-auto.py
         
