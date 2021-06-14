@@ -44,6 +44,7 @@ jobs:
       - run: sudo mv optoSensor.brd /home/user/optoSensor.brd
       - name: unzip
         run: tar zxpf /tmp/eagle.tar.gz
+      - run: sudo cp -r eagle-9.6.2 /opt/
       - name: make eagle dir
         run: sudo mkdir /home/user/eagle
       - name: chmod start
