@@ -63,10 +63,10 @@ jobs:
         run: sudo mv creds.js /home/user
       - name: Install dependencies
         run: |
-            python -m pip install --upgrade pip
-            pip3 install -r requirements.txt
+            sudo python -m pip install --upgrade pip
+            sudo pip3 install -r requirements.txt
       - name: grant permissions to python file
-        run: chmod 777 boms-auto.py
+        run: sudo chmod 777 boms-auto.py
       - name: run python file
         run: sudo python3 boms-auto.py
         
