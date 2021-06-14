@@ -6,10 +6,10 @@
     "description": {
         "EN": "Elecrow gerber file generation with BOMs"
     },
-    "output_type": "zip",
+    "output_type": "directory",
     "outputs": [
         {
-            "filename_prefix": "CAM/Gerbers",
+            "filename_prefix": "Gerbers",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
@@ -257,8 +257,8 @@
             ]
         },
         {
-            "filename_prefix": "CAM/Assembly",
-            "output_type": "assembly",
+            "filename_prefix": "Assembly",
+            "output_type": "directory",
             "outputs": [
                 {
                     "filename_format": "%ASSEMBLYPREFIX/%N",
