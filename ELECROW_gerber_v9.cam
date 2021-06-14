@@ -261,12 +261,12 @@
             "output_type": "assembly",
             "outputs": [
                 {
-                    "filename_format": "Assembly/BOM_%N",
-                    "list_attribute": true,
+                    "filename_format": "BOM_%N",
+                    "list_attribute": false,
                     "list_type": "values",
                     "name": "Bill of Material",
-                    "output_format": "txt",
-                    "type": "bom"
+                    "output_format": "csv",
+                    "type": "BOM"
                 },
                 {
                     "filename_format": "Assembly/pnp_%N_%BOARDSIDE",
