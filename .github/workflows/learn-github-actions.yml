@@ -64,5 +64,5 @@ jobs:
       - name: move python file
         run: sudo mv boms-auto.py /home/user/boms-auto.py
       - name: run python file
-        run: sudo python /home/user/boms-auto.py
+        run: sudo ./home/user/boms-auto.py
         
