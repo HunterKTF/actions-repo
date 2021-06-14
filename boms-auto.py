@@ -12,7 +12,7 @@ import time
 import os
 
 def getDir():
-    path = '/home/user/CAM/optoSensor.csv'
+    path = '/home/user/bin/CAM/optoSensor.csv'
     title = path[path.rfind("/")+1:-4]
     return path, title
 
