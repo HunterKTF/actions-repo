@@ -61,6 +61,7 @@ jobs:
         run: chmod 777 boms-auto.py
       - name: check contents
         run: ls /home/user
+      - run: pip3 install gspread
       - name: run python file
         run: sudo python3 boms-auto.py
         
