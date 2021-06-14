@@ -30,7 +30,7 @@ kill $(pidof ${EAGLE_DIR}/eagle);
 sleep 2;
 
 # Execute CAM Jobs
-${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/CAM/ELECROW_gerber_v9.cam -o/home/user/ /home/user/opto/optoSensor.brd
+${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/ELECROW_gerber_v9.cam -o/home/user/ /optoSensor.brd
 
 # Verify outputs
 ls -la /home/user/;
