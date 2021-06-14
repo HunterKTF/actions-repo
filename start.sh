@@ -13,21 +13,21 @@ export EAGLE_USER="rhernandez@valiot.io"
 export EAGLE_PSW="DeltaEcho9"
 
 # Eagle Auto Login.
-${EAGLE_DIR}/eagle & sleep 500;
+${EAGLE_DIR}/eagle & sleep 300;
 xdotool key Left;
-sleep 5;
+sleep 15;
 xdotool key Return;
-sleep 5;
+sleep 15;
 xdotool type ${EAGLE_USER};
-sleep 5;
+sleep 15;
 xdotool key Return;
-sleep 5;
+sleep 15;
 xdotool type ${EAGLE_PSW};
-sleep 5;
+sleep 15;
 xdotool key Return;
 sleep 10;
 kill $(pidof ${EAGLE_DIR}/eagle);
-sleep 2;
+sleep 12;
 
 # Execute CAM Jobs
 sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/ /home/user/optoSensor.brd
