@@ -34,5 +34,5 @@ sudo ${EAGLE_DIR}/eagle -X -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/u
 sleep 3
 
 # Verify outputs
-sudo ls /home/user/bin/
-sudo ls -ls /home/user/bin/Assembly/
+sudo ls -ls /home/user/
+sudo ls -ls /home/user/bin/
