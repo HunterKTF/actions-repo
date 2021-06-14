@@ -59,8 +59,6 @@ jobs:
         run: rm /tmp/eagle.tar.gz
       - name: review contents
         run: ls /home/user/bin
-      - name: move creds
-        run: sudo mv creds.js /home/user/creds.js
       - name: Install dependencies
         run: |
             sudo python -m pip install --upgrade pip
