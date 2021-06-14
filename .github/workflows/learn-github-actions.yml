@@ -6,14 +6,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - uses: actions/setup-python@v2
-        with:
-          python-version: '3.7'
-          architecture: 'x64'
       - name: install bats
         run: npm install -g bats
       - name: check bats version
         run: bats -v
+      - name: update and refresh repo lists
+        run: sudo apt update
+      - name: install supporting software
+        run: sudo apt install software-properties-common
+      - name: add Deadsnakes PPA
+        run: |
+          sudo add-apt-repository ppa:deadsnakes/ppa
+          sudo apt update
+      - name: install python 3
+        run: sudo apt install python3.7
+      - name: check python version
+        run: --version
       - name: get packages
         run: sudo apt-get -y install tigervnc-standalone-server blackbox xterm libpulse0 command-not-found wget bzip2 xvfb xdotool
       - name: adduser
