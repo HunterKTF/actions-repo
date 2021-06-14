@@ -58,7 +58,7 @@ jobs:
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
       - name: review contents
-        run: ls /home/user/bin
+        run: ls /home/user/bin/CAM
       - name: Install dependencies
         run: |
             sudo python -m pip install --upgrade pip
