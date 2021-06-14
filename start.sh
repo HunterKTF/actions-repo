@@ -13,7 +13,7 @@ export EAGLE_USER="rhernandez@valiot.io"
 export EAGLE_PSW="DeltaEcho9"
 
 # Eagle Auto Login.
-${EAGLE_DIR}/eagle & sleep 300;
+${EAGLE_DIR}/eagle & sleep 650;
 xdotool key Left;
 sleep 15;
 xdotool key Return;
