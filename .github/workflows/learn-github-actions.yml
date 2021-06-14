@@ -58,13 +58,13 @@ jobs:
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
       - name: review contents
-        run: ls /home/user/bin/CAM
+        run: ls /home/user/bin/CAM/Assembly
       - name: Install dependencies
         run: |
             sudo python -m pip install --upgrade pip
             sudo pip3 install -r requirements.txt
       - name: grant permissions to python file
         run: sudo chmod 777 boms-auto.py
-      - name: run python file
-        run: sudo python3 boms-auto.py
+      #- name: run python file
+      #  run: sudo python3 boms-auto.py
         
