@@ -21,7 +21,7 @@ jobs:
       - name: install python 3
         run: sudo apt install python3.7
       - name: check python version
-        run: --version
+        run: python --version
       - name: get packages
         run: sudo apt-get -y install tigervnc-standalone-server blackbox xterm libpulse0 command-not-found wget bzip2 xvfb xdotool
       - name: adduser
