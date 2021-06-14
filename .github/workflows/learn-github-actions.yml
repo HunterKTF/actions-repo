@@ -10,8 +10,8 @@ jobs:
         with:
           python-version: '3.x'
           architecture: 'x64'
-      - name: install python requirements
-        run: pip install -r requirements.txt
+      #- name: install python requirements
+      #  run: pip install -r requirements.txt
       - name: install bats
         run: npm install -g bats
       - name: check bats version
@@ -49,9 +49,11 @@ jobs:
       - name: make eagle dir
         run: sudo mkdir /home/user/eagle
       - name: chmod start
-        run: chmod +x test.sh
+        run: chmod +x start.sh
       - name: connect dummy display
-        run: ./test.sh
+        run: ./start.sh
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
+      - name: review contents
+        run: ls /home/user
         
