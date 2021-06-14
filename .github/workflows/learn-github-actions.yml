@@ -19,7 +19,7 @@ jobs:
           sudo add-apt-repository ppa:deadsnakes/ppa
           sudo apt update
       - name: install python 3
-        run: sudo apt install python3.7
+        run: sudo apt install python3.8
       - name: check python version
         run: python --version
       - name: get packages
