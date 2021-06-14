@@ -31,6 +31,7 @@ sleep 2;
 
 # Execute CAM Jobs
 sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/bin /home/user/optoSensor.brd
+sleep 3
 
 # Verify outputs
 ls /home/user/bin/CAM/;
