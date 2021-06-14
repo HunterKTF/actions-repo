@@ -9,7 +9,7 @@
     "output_type": "directory",
     "outputs": [
         {
-            "filename_prefix": "Gerbers",
+            "filename_prefix": "Assembly/Gerbers",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
@@ -261,7 +261,7 @@
             "output_type": "directory",
             "outputs": [
                 {
-                    "filename_format": "%ASSEMBLYPREFIX/%N",
+                    "filename_format": "Assembly/%ASSEMBLYPREFIX/%N",
                     "list_attribute": true,
                     "list_type": "values",
                     "name": "Bill of Material",
