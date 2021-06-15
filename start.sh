@@ -37,4 +37,3 @@ sleep 3
 sudo ls -ls /home/user/
 sudo ls -ls /home/user/bin/
 sudo ls -ls /home/user/bin/CAM
-sudo ls -ls /home/user/bin/CAM/CAM
