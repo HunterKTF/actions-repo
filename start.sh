@@ -7,7 +7,7 @@ rm -f /tmp/.X1-lock /tmp/.X11-unix/X1
 sudo /sbin/start-stop-daemon --start --pidfile /tmp/custom_xvfb_1.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :1 -ac -screen 0 1280x1024x16;
 sleep 5;
 
-export EAGLE_DIR=/opt/eagle-9.6.2;
+export EAGLE_DIR=eagle-9.6.2;
 export DISPLAY=:1;
 export EAGLE_USER="rhernandez@valiot.io"
 export EAGLE_PSW="DeltaEcho9"
