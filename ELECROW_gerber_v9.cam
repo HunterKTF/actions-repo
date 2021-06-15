@@ -258,7 +258,7 @@
         },
         {
             "filename_prefix": "CAM",
-            "output_type": "directory",
+            "output_type": "assembly",
             "outputs": [
                 {
                     "filename_format": "CAM/%ASSEMBLYPREFIX/%N",
