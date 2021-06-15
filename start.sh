@@ -33,7 +33,7 @@ ls -ls ${EAGLE_DIR}/cache/lbr/
 sudo cp -R lbr ${EAGLE_DIR}/cache/lbr/added_libs/
 
 # Execute CAM Jobs
-sudo ${EAGLE_DIR}/eagle -X -dCAMJOB -j${EAGLE_DIR}/examples/cam/examples/example_2_layer.cam -o/home/user/bin /home/user/optoSensor.brd
+sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j${EAGLE_DIR}/examples/cam/examples/example_2_layer.cam -o/home/user/bin /home/user/optoSensor.brd
 sleep 3;
 
 # Verify outputs
