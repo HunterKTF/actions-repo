@@ -36,4 +36,7 @@ sleep 3
 # Verify outputs
 sudo ls -ls /home/user/
 sudo ls -ls /home/user/bin/
-sudo ls -ls /home/user/bin/CAMOutputs
+sudo ls -ls /home/user/bin/CAMOutputs/
+sudo ls -ls /home/user/bin/CAMOutputs/Assembly/
+sudo ls -ls /home/user/bin/CAMOutputs/DrillFiles/
+sudo ls -ls /home/user/bin/CAMOutputs/GerberFiles/
