@@ -29,11 +29,12 @@ sleep 10;
 sudo kill $(pidof ${EAGLE_DIR}/eagle);
 sleep 2;
 
-sudo cp -r lbr ${EAGLE_DIR}/cache/lbr/
+sudo cp -r lbr ${EAGLE_DIR}/cache/lbr/lbr/
+sleep 3;
 
 # Execute CAM Jobs
 sudo ${EAGLE_DIR}/eagle -X -dCAMJOB -j${EAGLE_DIR}/examples/cam/examples/example_2_layer.cam -o/home/user/bin /home/user/optoSensor.brd
-sleep 3
+sleep 3;
 
 # Verify outputs
 sudo ls -ls /home/user/
