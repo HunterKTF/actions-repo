@@ -33,8 +33,8 @@ ls -ls ${EAGLE_DIR}/cache/lbr/
 sudo cp -R lbr ${EAGLE_DIR}/cache/lbr/added_libs/
 
 # Execute CAM Jobs
-# sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/bin ${EAGLE_DIR}/examples/projects/examples/arduino/Arduino_MEGA2560_ref.brd
-sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/bin /home/user/optoSensor.brd
+sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/bin ${EAGLE_DIR}/examples/projects/examples/arduino/Arduino_MEGA2560_ref.brd
+# sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/bin /home/user/optoSensor.brd
 sleep 3;
 
 # Verify outputs
