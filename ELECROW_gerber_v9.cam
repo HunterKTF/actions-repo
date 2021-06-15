@@ -267,12 +267,12 @@
                     "type": "pick_and_place"
                 },
                 {
-                    "filename_format": "CAM/%N",
+                    "filename_format": "%ASSEMBLYPREFIX/%N",
                     "list_attribute": true,
                     "list_type": "values",
-                    "name": "BOM",
+                    "name": "Bill of Material",
                     "output_format": "txt",
-                    "type": "BOM"
+                    "type": "bom"
                 }
             ]
         },
