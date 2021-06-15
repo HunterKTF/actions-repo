@@ -36,4 +36,4 @@ sleep 3
 # Verify outputs
 sudo ls -ls /home/user/
 sudo ls -ls /home/user/bin/
-sudo ls -ls /home/user/bin/CAM
+sudo ls -ls /home/user/bin/CAMOutputs
