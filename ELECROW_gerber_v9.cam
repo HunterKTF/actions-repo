@@ -263,7 +263,7 @@
                 {
                     "filename_format": "CAM/PnP_%N_%BOARDSIDE",
                     "name": "Pick and Place",
-                    "output_format": "csv",
+                    "output_format": "txt",
                     "type": "pick_and_place"
                 },
                 {
@@ -271,7 +271,7 @@
                     "list_attribute": true,
                     "list_type": "values",
                     "name": "Bill of Material",
-                    "output_format": "txt",
+                    "output_format": "csv",
                     "type": "bom"
                 }
             ]
