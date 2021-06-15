@@ -33,13 +33,14 @@ ls -ls ${EAGLE_DIR}/cache/lbr/
 sudo cp -R lbr ${EAGLE_DIR}/cache/lbr/added_libs/
 
 # Execute CAM Jobs
-sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j${EAGLE_DIR}/examples/cam/examples/example_2_layer.cam -o/home/user/bin ${EAGLE_DIR}/examples/projects/examples/arduino/Arduino_MEGA2560_ref.brd
+sudo ${EAGLE_DIR}/eagle -X -c+ -N -dCAMJOB -j/home/user/ELECROW_gerber_v9.cam -o/home/user/bin ${EAGLE_DIR}/examples/projects/examples/arduino/Arduino_MEGA2560_ref.brd
 sleep 3;
 
 # Verify outputs
 sudo ls -ls /home/user/
 sudo ls -ls /home/user/bin/
-sudo ls -ls /home/user/bin/CAMOutputs/
-sudo ls -ls /home/user/bin/CAMOutputs/Assembly/
-sudo ls -ls /home/user/bin/CAMOutputs/DrillFiles/
-sudo ls -ls /home/user/bin/CAMOutputs/GerberFiles/
+sudo ls -ls /home/user/bin/CAM/
+#sudo ls -ls /home/user/bin/CAMOutputs/
+#sudo ls -ls /home/user/bin/CAMOutputs/Assembly/
+#sudo ls -ls /home/user/bin/CAMOutputs/DrillFiles/
+#sudo ls -ls /home/user/bin/CAMOutputs/GerberFiles/
