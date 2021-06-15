@@ -267,8 +267,8 @@
                     "type": "pick_and_place"
                 },
                 {
-                    "filename_format": "CAM/%ASSEMBLYPREFIX/%N",
-                    "list_attribute": true,
+                    "filename_format": "CAM/output",
+                    "list_attribute": false,
                     "list_type": "values",
                     "name": "Bill of Material",
                     "output_format": "csv",
