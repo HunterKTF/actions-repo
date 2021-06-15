@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TEENSY4.1">
+<wire x1="-8.89" y1="30.48" x2="8.89" y2="30.48" width="0.127" layer="21"/>
+<wire x1="8.89" y1="30.48" x2="8.89" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-30.48" x2="6.35" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-30.48" x2="5.08" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-30.48" x2="-5.08" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-30.48" x2="-6.35" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-30.48" x2="-8.89" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-30.48" x2="-8.89" y2="30.48" width="0.127" layer="21"/>
+<pad name="GND" x="-7.62" y="29.21" drill="0.9652"/>
+<pad name="0_RX1_CRX2_CS1" x="-7.62" y="26.67" drill="0.9652"/>
+<pad name="1_TX1_CTX2_MISO1" x="-7.62" y="24.13" drill="0.9652"/>
+<pad name="2_OUT" x="-7.62" y="21.59" drill="0.9652"/>
+<pad name="3_LRCLK2" x="-7.62" y="19.05" drill="0.9652"/>
+<pad name="4_BCLK2" x="-7.62" y="16.51" drill="0.9652"/>
+<pad name="5_IN2" x="-7.62" y="13.97" drill="0.9652"/>
+<pad name="6_OUT1D" x="-7.62" y="11.43" drill="0.9652"/>
+<pad name="7_RX2_OUT1A" x="-7.62" y="8.89" drill="0.9652"/>
+<pad name="8_TX2_IN1" x="-7.62" y="6.35" drill="0.9652"/>
+<pad name="9_OUT1C" x="-7.62" y="3.81" drill="0.9652"/>
+<pad name="10_CS_MQSR" x="-7.62" y="1.27" drill="0.9652"/>
+<pad name="11_MOSI_CTX1" x="-7.62" y="-1.27" drill="0.9652"/>
+<pad name="12_MISO_MQSL" x="-7.62" y="-3.81" drill="0.9652"/>
+<pad name="3V3" x="-7.62" y="-6.35" drill="0.9652"/>
+<pad name="24_A10_TX6_SCL2" x="-7.62" y="-8.89" drill="0.9652"/>
+<pad name="25_A11_RX6_SDA2" x="-7.62" y="-11.43" drill="0.9652"/>
+<pad name="26_A12_MOSI1" x="-7.62" y="-13.97" drill="0.9652"/>
+<pad name="27_A13_SCK1" x="-7.62" y="-16.51" drill="0.9652"/>
+<pad name="28_RX7" x="-7.62" y="-19.05" drill="0.9652"/>
+<pad name="29_TX7" x="-7.62" y="-21.59" drill="0.9652"/>
+<pad name="30_CRX3" x="-7.62" y="-24.13" drill="0.9652"/>
+<pad name="31_CTX3" x="-7.62" y="-26.67" drill="0.9652"/>
+<pad name="32_OUT1B" x="-7.62" y="-29.21" drill="0.9652"/>
+<pad name="VIN" x="7.62" y="29.21" drill="0.9652"/>
+<pad name="GND_3" x="7.62" y="26.67" drill="0.9652"/>
+<pad name="3V3_2" x="7.62" y="24.13" drill="0.9652"/>
+<pad name="23_A9_CRX1_MCLK1" x="7.62" y="21.59" drill="0.9652"/>
+<pad name="22_A8_CTX1" x="7.62" y="19.05" drill="0.9652"/>
+<pad name="21_A7_RX5_BCLK1" x="7.62" y="16.51" drill="0.9652"/>
+<pad name="20_A6_TX5_LRCLK1" x="7.62" y="13.97" drill="0.9652"/>
+<pad name="19_A5_SCL0" x="7.62" y="11.43" drill="0.9652"/>
+<pad name="18_A4_SDA1" x="7.62" y="8.89" drill="0.9652"/>
+<pad name="17_A3_TX4_SDA1" x="7.62" y="6.35" drill="0.9652"/>
+<pad name="16_A2_RX4_SCL1" x="7.62" y="3.81" drill="0.9652"/>
+<pad name="15_A1_RX3_SPDIF_IN" x="7.62" y="1.27" drill="0.9652"/>
+<pad name="14_A0_TX3_SPDIF_OUT" x="7.62" y="-1.27" drill="0.9652"/>
+<pad name="13_SCK_CRX1_LED" x="7.62" y="-3.81" drill="0.9652"/>
+<pad name="GND_2" x="7.62" y="-6.35" drill="0.9652"/>
+<pad name="41_A1_MISO1" x="7.62" y="-8.89" drill="0.9652"/>
+<pad name="40_A16_CS1" x="7.62" y="-11.43" drill="0.9652"/>
+<pad name="39_DAT2_TX5" x="7.62" y="-13.97" drill="0.9652"/>
+<pad name="38_DAT3_RX5" x="7.62" y="-16.51" drill="0.9652"/>
+<pad name="37_CMD_SCK2" x="7.62" y="-19.05" drill="0.9652"/>
+<pad name="36_CLK_CS2" x="7.62" y="-21.59" drill="0.9652"/>
+<pad name="35_DAT0_MOSI2" x="7.62" y="-24.13" drill="0.9652"/>
+<pad name="34_DAT1_MISO2" x="7.62" y="-26.67" drill="0.9652"/>
+<pad name="33_MCLK2" x="7.62" y="-29.21" drill="0.9652"/>
+<wire x1="3.81" y1="31.75" x2="-3.81" y2="31.75" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="31.75" x2="-3.81" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="25.4" x2="3.81" y2="25.4" width="0.127" layer="21"/>
+<wire x1="3.81" y1="25.4" x2="3.81" y2="31.75" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-30.48" x2="-6.35" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-17.78" x2="6.35" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-17.78" x2="6.35" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-30.48" x2="-5.08" y2="-29.21" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-29.21" x2="5.08" y2="-29.21" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-29.21" x2="5.08" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-13.97" x2="1.27" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-13.97" x2="1.27" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-10.16" x2="-1.27" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-10.16" x2="-1.27" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-5.08" x2="-6.35" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="7.62" x2="6.35" y2="7.62" width="0.127" layer="21"/>
+<wire x1="6.35" y1="7.62" x2="6.35" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-5.08" x2="-6.35" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="-11.43" x2="0" y2="-12.7" width="0.127" layer="21" curve="-180"/>
+<wire x1="0" y1="-11.43" x2="0" y2="-12.7" width="0.127" layer="21" curve="-180"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-11.43" width="0.127" layer="21" curve="-180"/>
+<text x="-1.27" y="-25.4" size="1.27" layer="21">SD</text>
+<text x="-1.905" y="27.94" size="1.27" layer="21">USB</text>
+<text x="-4.7625" y="1.27" size="1.27" layer="21">TEENSY 4.1</text>
+<pad name="VBAT" x="-5.08" y="-16.51" drill="0.9652"/>
+<pad name="3.3V" x="-2.54" y="-16.51" drill="0.9652"/>
+<pad name="BAT_GND" x="0" y="-16.51" drill="0.9652"/>
+<pad name="PROGRAM" x="2.54" y="-16.51" drill="0.9652"/>
+<pad name="ON/OFF" x="5.08" y="-16.51" drill="0.9652"/>
+</package>
+<package name="HDRV48W64P1524X254_2X24_6096X1778X838B" urn="urn:adsk.eagle:footprint:20176064/1">
+<description>Double-row, 48-pin Pin Header (Male) Straight, 15.24 mm (0.60 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 60.96 X 17.78 X 8.38 mm body
+&lt;p&gt;Double-row (2X24), 48-pin Pin Header (Male) Straight package with 15.24 mm (0.60 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 60.96 X 17.78 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="59.69" y1="-16.51" x2="-1.27" y2="-16.51" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="-16.51" x2="-1.27" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="59.69" y2="1.27" width="0.12" layer="21"/>
+<wire x1="59.69" y1="1.27" x2="59.69" y2="-16.51" width="0.12" layer="21"/>
+<wire x1="59.69" y1="-16.51" x2="-1.27" y2="-16.51" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-16.51" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="59.69" y2="1.27" width="0.12" layer="51"/>
+<wire x1="59.69" y1="1.27" x2="59.69" y2="-16.51" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="11" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="12" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="13" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="14" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="15" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="17" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="18" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="19" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="20" x="48.26" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="21" x="50.8" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="22" x="53.34" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="23" x="55.88" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="24" x="58.42" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="25" x="58.42" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="26" x="55.88" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="27" x="53.34" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="28" x="50.8" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="29" x="48.26" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="30" x="45.72" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="31" x="43.18" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="32" x="40.64" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="33" x="38.1" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="34" x="35.56" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="35" x="33.02" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="36" x="30.48" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="37" x="27.94" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="38" x="25.4" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="39" x="22.86" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="40" x="20.32" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="41" x="17.78" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="42" x="15.24" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="43" x="12.7" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="44" x="10.16" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="45" x="7.62" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="46" x="5.08" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="47" x="2.54" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<pad name="48" x="0" y="-15.24" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.145" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="HDRV48W64P1524X254_2X24_6096X1778X838B" urn="urn:adsk.eagle:package:20175832/1" type="model">
+<description>Double-row, 48-pin Pin Header (Male) Straight, 15.24 mm (0.60 in) row pitch, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 60.96 X 17.78 X 8.38 mm body
+&lt;p&gt;Double-row (2X24), 48-pin Pin Header (Male) Straight package with 15.24 mm (0.60 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 60.96 X 17.78 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRV48W64P1524X254_2X24_6096X1778X838B"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="TEENSY4.1">
+<wire x1="-22.86" y1="-10.16" x2="-22.86" y2="60.96" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="60.96" x2="22.86" y2="60.96" width="0.254" layer="94"/>
+<wire x1="22.86" y1="60.96" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-10.16" x2="-22.86" y2="-10.16" width="0.254" layer="94"/>
+<pin name="GND" x="-27.94" y="54.61" length="middle"/>
+<pin name="0_RX1_CRX2_CS1" x="-27.94" y="52.07" length="middle"/>
+<pin name="1_TX1_CTX2_MISO1" x="-27.94" y="49.53" length="middle"/>
+<pin name="2_OUT" x="-27.94" y="46.99" length="middle"/>
+<pin name="3_LRCLK2" x="-27.94" y="44.45" length="middle"/>
+<pin name="4_BCLK2" x="-27.94" y="41.91" length="middle"/>
+<pin name="5_IN2" x="-27.94" y="39.37" length="middle"/>
+<pin name="6_OUT1D" x="-27.94" y="36.83" length="middle"/>
+<pin name="7_RX2_OUT1A" x="-27.94" y="34.29" length="middle"/>
+<pin name="8_TX2_IN1" x="-27.94" y="31.75" length="middle"/>
+<pin name="9_OUT1C" x="-27.94" y="29.21" length="middle"/>
+<pin name="10_CS_MQSR" x="-27.94" y="26.67" length="middle"/>
+<pin name="11_MOSI_CTX1" x="-27.94" y="24.13" length="middle"/>
+<pin name="12_MISO_MQSL" x="-27.94" y="21.59" length="middle"/>
+<pin name="3V3" x="-27.94" y="19.05" length="middle"/>
+<pin name="24_A10_TX6_SCL2" x="-27.94" y="16.51" length="middle"/>
+<pin name="25_A11_RX6_SDA2" x="-27.94" y="13.97" length="middle"/>
+<pin name="27_A13_SCK1" x="-27.94" y="8.89" length="middle"/>
+<pin name="28_RX7" x="-27.94" y="6.35" length="middle"/>
+<pin name="29_TX7" x="-27.94" y="3.81" length="middle"/>
+<pin name="30_CRX3" x="-27.94" y="1.27" length="middle"/>
+<pin name="31_CTX3" x="-27.94" y="-1.27" length="middle"/>
+<pin name="32_OUT1B" x="-27.94" y="-3.81" length="middle"/>
+<pin name="26_A12_MOSI1" x="-27.94" y="11.43" length="middle"/>
+<pin name="33_MCLK2" x="27.94" y="-3.81" length="middle" rot="R180"/>
+<pin name="34_DAT1_MISO2" x="27.94" y="-1.27" length="middle" rot="R180"/>
+<pin name="35_DAT0_MOSI2" x="27.94" y="1.27" length="middle" rot="R180"/>
+<pin name="36_CLK_CS2" x="27.94" y="3.81" length="middle" rot="R180"/>
+<pin name="37_CMD_SCK2" x="27.94" y="6.35" length="middle" rot="R180"/>
+<pin name="38_DAT3_RX5" x="27.94" y="8.89" length="middle" rot="R180"/>
+<pin name="39_DAT2_TX5" x="27.94" y="11.43" length="middle" rot="R180"/>
+<pin name="40_A16_CS1" x="27.94" y="13.97" length="middle" rot="R180"/>
+<pin name="41_A1_MISO1" x="27.94" y="16.51" length="middle" rot="R180"/>
+<pin name="GND_2" x="27.94" y="19.05" length="middle" rot="R180"/>
+<pin name="13_SCK_CRX1_LED" x="27.94" y="21.59" length="middle" rot="R180"/>
+<pin name="14_A0_TX3_SPDIF_OUT" x="27.94" y="24.13" length="middle" rot="R180"/>
+<pin name="15_A1_RX3_SPDIF_IN" x="27.94" y="26.67" length="middle" rot="R180"/>
+<pin name="16_A2_RX4_SCL1" x="27.94" y="29.21" length="middle" rot="R180"/>
+<pin name="17_A3_TX4_SDA1" x="27.94" y="31.75" length="middle" rot="R180"/>
+<pin name="18_A4_SDA0" x="27.94" y="34.29" length="middle" rot="R180"/>
+<pin name="19_A5_SCL0" x="27.94" y="36.83" length="middle" rot="R180"/>
+<pin name="20_A6_TX5_LRCLK1" x="27.94" y="39.37" length="middle" rot="R180"/>
+<pin name="21_A7_RX5_BCLK1" x="27.94" y="41.91" length="middle" rot="R180"/>
+<pin name="22_A8_CTX1" x="27.94" y="44.45" length="middle" rot="R180"/>
+<pin name="23_A9_CRX1_MCLK1" x="27.94" y="46.99" length="middle" rot="R180"/>
+<pin name="3V3_2" x="27.94" y="49.53" length="middle" rot="R180"/>
+<pin name="GND_3" x="27.94" y="52.07" length="middle" rot="R180"/>
+<pin name="VIN" x="27.94" y="54.61" length="middle" rot="R180"/>
+<pin name="VBAT" x="27.94" y="-6.35" length="middle" rot="R180"/>
+<pin name="BAT_GND" x="27.94" y="-8.89" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TEENSY4.1">
+<gates>
+<gate name="G$1" symbol="TEENSY4.1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEENSY4.1">
+<connects>
+<connect gate="G$1" pin="0_RX1_CRX2_CS1" pad="0_RX1_CRX2_CS1"/>
+<connect gate="G$1" pin="10_CS_MQSR" pad="10_CS_MQSR"/>
+<connect gate="G$1" pin="11_MOSI_CTX1" pad="11_MOSI_CTX1"/>
+<connect gate="G$1" pin="12_MISO_MQSL" pad="12_MISO_MQSL"/>
+<connect gate="G$1" pin="13_SCK_CRX1_LED" pad="13_SCK_CRX1_LED"/>
+<connect gate="G$1" pin="14_A0_TX3_SPDIF_OUT" pad="14_A0_TX3_SPDIF_OUT"/>
+<connect gate="G$1" pin="15_A1_RX3_SPDIF_IN" pad="15_A1_RX3_SPDIF_IN"/>
+<connect gate="G$1" pin="16_A2_RX4_SCL1" pad="16_A2_RX4_SCL1"/>
+<connect gate="G$1" pin="17_A3_TX4_SDA1" pad="17_A3_TX4_SDA1"/>
+<connect gate="G$1" pin="18_A4_SDA0" pad="18_A4_SDA1"/>
+<connect gate="G$1" pin="19_A5_SCL0" pad="19_A5_SCL0"/>
+<connect gate="G$1" pin="1_TX1_CTX2_MISO1" pad="1_TX1_CTX2_MISO1"/>
+<connect gate="G$1" pin="20_A6_TX5_LRCLK1" pad="20_A6_TX5_LRCLK1"/>
+<connect gate="G$1" pin="21_A7_RX5_BCLK1" pad="21_A7_RX5_BCLK1"/>
+<connect gate="G$1" pin="22_A8_CTX1" pad="22_A8_CTX1"/>
+<connect gate="G$1" pin="23_A9_CRX1_MCLK1" pad="23_A9_CRX1_MCLK1"/>
+<connect gate="G$1" pin="24_A10_TX6_SCL2" pad="24_A10_TX6_SCL2"/>
+<connect gate="G$1" pin="25_A11_RX6_SDA2" pad="25_A11_RX6_SDA2"/>
+<connect gate="G$1" pin="26_A12_MOSI1" pad="26_A12_MOSI1"/>
+<connect gate="G$1" pin="27_A13_SCK1" pad="27_A13_SCK1"/>
+<connect gate="G$1" pin="28_RX7" pad="28_RX7"/>
+<connect gate="G$1" pin="29_TX7" pad="29_TX7"/>
+<connect gate="G$1" pin="2_OUT" pad="2_OUT"/>
+<connect gate="G$1" pin="30_CRX3" pad="30_CRX3"/>
+<connect gate="G$1" pin="31_CTX3" pad="31_CTX3"/>
+<connect gate="G$1" pin="32_OUT1B" pad="32_OUT1B"/>
+<connect gate="G$1" pin="33_MCLK2" pad="33_MCLK2"/>
+<connect gate="G$1" pin="34_DAT1_MISO2" pad="34_DAT1_MISO2"/>
+<connect gate="G$1" pin="35_DAT0_MOSI2" pad="35_DAT0_MOSI2"/>
+<connect gate="G$1" pin="36_CLK_CS2" pad="36_CLK_CS2"/>
+<connect gate="G$1" pin="37_CMD_SCK2" pad="37_CMD_SCK2"/>
+<connect gate="G$1" pin="38_DAT3_RX5" pad="38_DAT3_RX5"/>
+<connect gate="G$1" pin="39_DAT2_TX5" pad="39_DAT2_TX5"/>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="3V3_2" pad="3V3_2"/>
+<connect gate="G$1" pin="3_LRCLK2" pad="3_LRCLK2"/>
+<connect gate="G$1" pin="40_A16_CS1" pad="40_A16_CS1"/>
+<connect gate="G$1" pin="41_A1_MISO1" pad="41_A1_MISO1"/>
+<connect gate="G$1" pin="4_BCLK2" pad="4_BCLK2"/>
+<connect gate="G$1" pin="5_IN2" pad="5_IN2"/>
+<connect gate="G$1" pin="6_OUT1D" pad="6_OUT1D"/>
+<connect gate="G$1" pin="7_RX2_OUT1A" pad="7_RX2_OUT1A"/>
+<connect gate="G$1" pin="8_TX2_IN1" pad="8_TX2_IN1"/>
+<connect gate="G$1" pin="9_OUT1C" pad="9_OUT1C"/>
+<connect gate="G$1" pin="BAT_GND" pad="BAT_GND"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND_2" pad="GND_2"/>
+<connect gate="G$1" pin="GND_3" pad="GND_3"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

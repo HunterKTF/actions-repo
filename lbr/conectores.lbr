@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DB_37_FEM_180_BIG" urn="urn:adsk.eagle:footprint:23420492/1">
+<hole x="-31.75" y="0" drill="3.05"/>
+<hole x="31.75" y="0" drill="3.05"/>
+<pad name="1" x="24.93" y="1.42" drill="1.6" shape="square"/>
+<pad name="2" x="22.16" y="1.42" drill="1.6"/>
+<pad name="3" x="19.39" y="1.42" drill="1.6"/>
+<pad name="4" x="16.62" y="1.42" drill="1.6"/>
+<pad name="5" x="13.85" y="1.42" drill="1.6"/>
+<pad name="6" x="11.08" y="1.42" drill="1.6"/>
+<pad name="7" x="8.31" y="1.42" drill="1.6"/>
+<pad name="8" x="5.54" y="1.42" drill="1.6"/>
+<pad name="9" x="2.77" y="1.42" drill="1.6"/>
+<pad name="10" x="0" y="1.42" drill="1.6"/>
+<pad name="11" x="-2.77" y="1.42" drill="1.6"/>
+<pad name="12" x="-5.54" y="1.42" drill="1.6"/>
+<pad name="13" x="-8.31" y="1.42" drill="1.6"/>
+<pad name="14" x="-11.08" y="1.42" drill="1.6"/>
+<pad name="15" x="-13.85" y="1.42" drill="1.6"/>
+<pad name="16" x="-16.62" y="1.42" drill="1.6"/>
+<pad name="17" x="-19.39" y="1.42" drill="1.6"/>
+<pad name="18" x="-22.16" y="1.42" drill="1.6"/>
+<pad name="19" x="-24.93" y="1.42" drill="1.6"/>
+<pad name="37" x="-23.545" y="-1.42" drill="1.6"/>
+<pad name="36" x="-20.775" y="-1.42" drill="1.6"/>
+<pad name="35" x="-18.005" y="-1.42" drill="1.6"/>
+<pad name="34" x="-15.235" y="-1.42" drill="1.6"/>
+<pad name="33" x="-12.465" y="-1.42" drill="1.6"/>
+<pad name="32" x="-9.695" y="-1.42" drill="1.6"/>
+<pad name="31" x="-6.925" y="-1.42" drill="1.6"/>
+<pad name="30" x="-4.155" y="-1.42" drill="1.6"/>
+<pad name="29" x="-1.385" y="-1.42" drill="1.6"/>
+<pad name="28" x="1.385" y="-1.42" drill="1.6"/>
+<pad name="27" x="4.155" y="-1.42" drill="1.6"/>
+<pad name="26" x="6.925" y="-1.42" drill="1.6"/>
+<pad name="25" x="9.695" y="-1.42" drill="1.6"/>
+<pad name="24" x="12.465" y="-1.42" drill="1.6"/>
+<pad name="23" x="15.235" y="-1.42" drill="1.6"/>
+<pad name="22" x="18.005" y="-1.42" drill="1.6"/>
+<pad name="21" x="20.775" y="-1.42" drill="1.6"/>
+<pad name="20" x="23.545" y="-1.42" drill="1.6"/>
+<wire x1="-26.722546875" y1="3" x2="26.368984375" y2="3" width="0.127" layer="21"/>
+<wire x1="26.368984375" y1="3" x2="26.9714" y2="2.1642" width="0.127" layer="21" curve="-108.434503"/>
+<wire x1="26.9714" y1="2.1642" x2="25.39473125" y2="-2.56580625" width="0.127" layer="21"/>
+<wire x1="25.39473125" y1="-2.56580625" x2="24.79231875" y2="-3" width="0.127" layer="21" curve="-71.56514"/>
+<wire x1="24.79231875" y1="-3" x2="-24.357546875" y2="-3" width="0.127" layer="21"/>
+<wire x1="-24.357546875" y1="-3" x2="-24.925509375" y2="-2.64898125" width="0.127" layer="21" curve="-63.434949"/>
+<wire x1="-24.925509375" y1="-2.64898125" x2="-27.290509375" y2="2.08101875" width="0.127" layer="21"/>
+<wire x1="-27.290509375" y1="2.08101875" x2="-26.722546875" y2="3" width="0.127" layer="21" curve="-116.565051"/>
+<wire x1="-35.56" y1="-3.81" x2="-35.56" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-35.56" y1="2.54" x2="-32.75" y2="6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-32.75" y1="6" x2="33.25" y2="6" width="0.127" layer="21"/>
+<wire x1="33.25" y1="6" x2="35.56" y2="3.81" width="0.127" layer="21" curve="-90"/>
+<wire x1="35.56" y1="3.81" x2="35.615" y2="-3.635" width="0.127" layer="21"/>
+<wire x1="35.615" y1="-3.635" x2="33.25" y2="-6" width="0.127" layer="21" curve="-90"/>
+<wire x1="33.25" y1="-6" x2="-32.75" y2="-6" width="0.127" layer="21"/>
+<wire x1="-32.75" y1="-6" x2="-35.56" y2="-3.81" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="DB9_FEM_180" urn="urn:adsk.eagle:footprint:23420495/1">
+<hole x="-12.5" y="0" drill="3.1"/>
+<hole x="12.5" y="0" drill="3.1"/>
+<pad name="1" x="5.48" y="1.42" drill="1" shape="square"/>
+<pad name="2" x="2.74" y="1.42" drill="1"/>
+<pad name="3" x="0" y="1.42" drill="1"/>
+<pad name="4" x="-2.74" y="1.42" drill="1"/>
+<pad name="5" x="-5.48" y="1.42" drill="1"/>
+<pad name="6" x="4.11" y="-1.42" drill="1"/>
+<pad name="7" x="1.37" y="-1.42" drill="1"/>
+<pad name="8" x="-1.37" y="-1.42" drill="1"/>
+<pad name="9" x="-4.11" y="-1.42" drill="1"/>
+<wire x1="-6.14473125" y1="-2.56580625" x2="-7.7214" y2="2.1642" width="0.127" layer="21"/>
+<wire x1="-7.7214" y1="2.1642" x2="-7.118984375" y2="3" width="0.127" layer="21" curve="-108.435142"/>
+<wire x1="-7.118984375" y1="3" x2="7.118984375" y2="3" width="0.127" layer="21"/>
+<wire x1="7.118984375" y1="3" x2="7.7214" y2="2.1642" width="0.127" layer="21" curve="-108.434503"/>
+<wire x1="7.7214" y1="2.1642" x2="6.14473125" y2="-2.56580625" width="0.127" layer="21"/>
+<wire x1="6.14473125" y1="-2.56580625" x2="5.54231875" y2="-3" width="0.127" layer="21" curve="-71.56514"/>
+<wire x1="5.54231875" y1="-3" x2="-5.54231875" y2="-3" width="0.127" layer="21"/>
+<wire x1="-5.54231875" y1="-3" x2="-6.14473125" y2="-2.56580625" width="0.127" layer="21" curve="-71.564873"/>
+<wire x1="-16" y1="-4" x2="-16" y2="4" width="0.127" layer="21"/>
+<wire x1="-16" y1="4" x2="-15" y2="5" width="0.127" layer="21" curve="-90"/>
+<wire x1="-15" y1="5" x2="15" y2="5" width="0.127" layer="21"/>
+<wire x1="15" y1="5" x2="16" y2="4" width="0.127" layer="21" curve="-90"/>
+<wire x1="16" y1="4" x2="16" y2="-4" width="0.127" layer="21"/>
+<wire x1="16" y1="-4" x2="15" y2="-5" width="0.127" layer="21" curve="-90"/>
+<wire x1="15" y1="-5" x2="-15" y2="-5" width="0.127" layer="21"/>
+<wire x1="-15" y1="-5" x2="-16" y2="-4" width="0.127" layer="21" curve="-90"/>
+</package>
+<package name="RJ45_FEM_180" urn="urn:adsk.eagle:footprint:23420493/1">
+<hole x="-5.715" y="2.54" drill="3.25"/>
+<hole x="5.715" y="2.54" drill="3.25"/>
+<pad name="8" x="-4.445" y="-6.35" drill="0.76"/>
+<pad name="7" x="-3.175" y="-3.81" drill="0.76"/>
+<pad name="6" x="-1.905" y="-6.35" drill="0.76"/>
+<pad name="5" x="-0.635" y="-3.81" drill="0.76"/>
+<pad name="4" x="0.635" y="-6.35" drill="0.76"/>
+<pad name="3" x="1.905" y="-3.81" drill="0.76"/>
+<pad name="2" x="3.175" y="-6.35" drill="0.76"/>
+<pad name="1" x="4.445" y="-3.81" drill="0.76" shape="square"/>
+<wire x1="-8.715" y1="-8.46" x2="-8.715" y2="5.54" width="0.127" layer="21"/>
+<wire x1="-8.715" y1="5.54" x2="-5.715" y2="5.54" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="5.54" x2="-5.715" y2="6.54" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="6.54" x2="-4.715" y2="6.54" width="0.127" layer="21"/>
+<wire x1="-4.715" y1="6.54" x2="-4.715" y2="7.54" width="0.127" layer="21"/>
+<wire x1="-4.715" y1="7.54" x2="-3.715" y2="7.54" width="0.127" layer="21"/>
+<wire x1="-3.715" y1="7.54" x2="-3.715" y2="9.54" width="0.127" layer="21"/>
+<wire x1="-3.715" y1="9.54" x2="3.785" y2="9.54" width="0.127" layer="21"/>
+<wire x1="3.785" y1="9.54" x2="3.785" y2="7.54" width="0.127" layer="21"/>
+<wire x1="3.785" y1="7.54" x2="4.785" y2="7.54" width="0.127" layer="21"/>
+<wire x1="4.785" y1="7.54" x2="4.785" y2="6.54" width="0.127" layer="21"/>
+<wire x1="4.785" y1="6.54" x2="5.785" y2="6.54" width="0.127" layer="21"/>
+<wire x1="5.785" y1="6.54" x2="5.785" y2="5.54" width="0.127" layer="21"/>
+<wire x1="5.785" y1="5.54" x2="8.785" y2="5.54" width="0.127" layer="21"/>
+<wire x1="8.785" y1="5.54" x2="8.785" y2="-8.46" width="0.127" layer="21"/>
+<wire x1="8.785" y1="-8.46" x2="-8.715" y2="-8.46" width="0.127" layer="21"/>
+</package>
+<package name="DB_37_FEM_180" urn="urn:adsk.eagle:footprint:23420494/1">
+<hole x="-31.75" y="0" drill="3.05"/>
+<hole x="31.75" y="0" drill="3.05"/>
+<pad name="1" x="24.93" y="1.42" drill="1" shape="square"/>
+<pad name="2" x="22.16" y="1.42" drill="1"/>
+<pad name="3" x="19.39" y="1.42" drill="1"/>
+<pad name="4" x="16.62" y="1.42" drill="1"/>
+<pad name="5" x="13.85" y="1.42" drill="1"/>
+<pad name="6" x="11.08" y="1.42" drill="1"/>
+<pad name="7" x="8.31" y="1.42" drill="1"/>
+<pad name="8" x="5.54" y="1.42" drill="1"/>
+<pad name="9" x="2.77" y="1.42" drill="1"/>
+<pad name="10" x="0" y="1.42" drill="1"/>
+<pad name="11" x="-2.77" y="1.42" drill="1"/>
+<pad name="12" x="-5.54" y="1.42" drill="1"/>
+<pad name="13" x="-8.31" y="1.42" drill="1"/>
+<pad name="14" x="-11.08" y="1.42" drill="1"/>
+<pad name="15" x="-13.85" y="1.42" drill="1"/>
+<pad name="16" x="-16.62" y="1.42" drill="1"/>
+<pad name="17" x="-19.39" y="1.42" drill="1"/>
+<pad name="18" x="-22.16" y="1.42" drill="1"/>
+<pad name="19" x="-24.93" y="1.42" drill="1"/>
+<pad name="37" x="-23.545" y="-1.42" drill="1"/>
+<pad name="36" x="-20.775" y="-1.42" drill="1"/>
+<pad name="35" x="-18.005" y="-1.42" drill="1"/>
+<pad name="34" x="-15.235" y="-1.42" drill="1"/>
+<pad name="33" x="-12.465" y="-1.42" drill="1"/>
+<pad name="32" x="-9.695" y="-1.42" drill="1"/>
+<pad name="31" x="-6.925" y="-1.42" drill="1"/>
+<pad name="30" x="-4.155" y="-1.42" drill="1"/>
+<pad name="29" x="-1.385" y="-1.42" drill="1"/>
+<pad name="28" x="1.25" y="-1.42" drill="1"/>
+<pad name="27" x="4.155" y="-1.42" drill="1"/>
+<pad name="26" x="6.925" y="-1.42" drill="1"/>
+<pad name="25" x="9.695" y="-1.42" drill="1"/>
+<pad name="24" x="12.465" y="-1.42" drill="1"/>
+<pad name="23" x="15.235" y="-1.42" drill="1"/>
+<pad name="22" x="18.005" y="-1.42" drill="1"/>
+<pad name="21" x="20.775" y="-1.42" drill="1"/>
+<pad name="20" x="23.545" y="-1.42" drill="1"/>
+<wire x1="-26.722546875" y1="3" x2="26.368984375" y2="3" width="0.127" layer="21"/>
+<wire x1="26.368984375" y1="3" x2="26.9714" y2="2.1642" width="0.127" layer="21" curve="-108.434503"/>
+<wire x1="26.9714" y1="2.1642" x2="25.39473125" y2="-2.56580625" width="0.127" layer="21"/>
+<wire x1="25.39473125" y1="-2.56580625" x2="24.79231875" y2="-3" width="0.127" layer="21" curve="-71.56514"/>
+<wire x1="24.79231875" y1="-3" x2="-24.357546875" y2="-3" width="0.127" layer="21"/>
+<wire x1="-24.357546875" y1="-3" x2="-24.925509375" y2="-2.64898125" width="0.127" layer="21" curve="-63.434949"/>
+<wire x1="-24.925509375" y1="-2.64898125" x2="-27.290509375" y2="2.08101875" width="0.127" layer="21"/>
+<wire x1="-27.290509375" y1="2.08101875" x2="-26.722546875" y2="3" width="0.127" layer="21" curve="-116.565051"/>
+<wire x1="-35.56" y1="-3.81" x2="-35.56" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-35.56" y1="2.54" x2="-32.75" y2="6" width="0.127" layer="21" curve="-90"/>
+<wire x1="-32.75" y1="6" x2="33.25" y2="6" width="0.127" layer="21"/>
+<wire x1="33.25" y1="6" x2="35.56" y2="3.81" width="0.127" layer="21" curve="-90"/>
+<wire x1="35.56" y1="3.81" x2="35.615" y2="-3.635" width="0.127" layer="21"/>
+<wire x1="35.615" y1="-3.635" x2="33.25" y2="-6" width="0.127" layer="21" curve="-90"/>
+<wire x1="33.25" y1="-6" x2="-32.75" y2="-6" width="0.127" layer="21"/>
+<wire x1="-32.75" y1="-6" x2="-35.56" y2="-3.81" width="0.127" layer="21" curve="-90"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="RJ45_FEM_180" urn="urn:adsk.eagle:package:23420501/2" type="model">
+<packageinstances>
+<packageinstance name="RJ45_FEM_180"/>
+</packageinstances>
+</package3d>
+<package3d name="DB9_FEM_180" urn="urn:adsk.eagle:package:23420503/3" type="model">
+<packageinstances>
+<packageinstance name="DB9_FEM_180"/>
+</packageinstances>
+</package3d>
+<package3d name="DB_37_FEM_180_BIG" urn="urn:adsk.eagle:package:23420500/2" type="model">
+<packageinstances>
+<packageinstance name="DB_37_FEM_180_BIG"/>
+</packageinstances>
+</package3d>
+<package3d name="DB_37_FEM_180" urn="urn:adsk.eagle:package:23420502/2" type="model">
+<packageinstances>
+<packageinstance name="DB_37_FEM_180"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="DB_37_FM_180_BIG" urn="urn:adsk.eagle:symbol:23420496/1">
+<pin name="19" x="-40.64" y="10.16" length="middle" rot="R270"/>
+<pin name="18" x="-35.56" y="10.16" length="middle" rot="R270"/>
+<pin name="17" x="-30.48" y="10.16" length="middle" rot="R270"/>
+<pin name="16" x="-25.4" y="10.16" length="middle" rot="R270"/>
+<pin name="15" x="-20.32" y="10.16" length="middle" rot="R270"/>
+<pin name="14" x="-15.24" y="10.16" length="middle" rot="R270"/>
+<pin name="13" x="-10.16" y="10.16" length="middle" rot="R270"/>
+<pin name="12" x="-5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="11" x="0" y="10.16" length="middle" rot="R270"/>
+<pin name="10" x="5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="9" x="10.16" y="10.16" length="middle" rot="R270"/>
+<pin name="8" x="15.24" y="10.16" length="middle" rot="R270"/>
+<pin name="7" x="20.32" y="10.16" length="middle" rot="R270"/>
+<pin name="6" x="25.4" y="10.16" length="middle" rot="R270"/>
+<pin name="5" x="30.48" y="10.16" length="middle" rot="R270"/>
+<pin name="4" x="35.56" y="10.16" length="middle" rot="R270"/>
+<pin name="3" x="40.64" y="10.16" length="middle" rot="R270"/>
+<pin name="2" x="45.72" y="10.16" length="middle" rot="R270"/>
+<pin name="1" x="50.8" y="10.16" length="middle" rot="R270"/>
+<pin name="20" x="48.26" y="-10.16" length="middle" rot="R90"/>
+<pin name="21" x="43.18" y="-10.16" length="middle" rot="R90"/>
+<pin name="22" x="38.1" y="-10.16" length="middle" rot="R90"/>
+<pin name="23" x="33.02" y="-10.16" length="middle" rot="R90"/>
+<pin name="24" x="27.94" y="-10.16" length="middle" rot="R90"/>
+<pin name="25" x="22.86" y="-10.16" length="middle" rot="R90"/>
+<pin name="26" x="17.78" y="-10.16" length="middle" rot="R90"/>
+<pin name="27" x="12.7" y="-10.16" length="middle" rot="R90"/>
+<pin name="28" x="7.62" y="-10.16" length="middle" rot="R90"/>
+<pin name="29" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="30" x="-2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="31" x="-7.62" y="-10.16" length="middle" rot="R90"/>
+<pin name="32" x="-12.7" y="-10.16" length="middle" rot="R90"/>
+<pin name="33" x="-17.78" y="-10.16" length="middle" rot="R90"/>
+<pin name="34" x="-22.86" y="-10.16" length="middle" rot="R90"/>
+<pin name="35" x="-27.94" y="-10.16" length="middle" rot="R90"/>
+<pin name="36" x="-33.02" y="-10.16" length="middle" rot="R90"/>
+<pin name="37" x="-38.1" y="-10.16" length="middle" rot="R90"/>
+<wire x1="-40.64" y1="-5.08" x2="-43.18" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="-2.54" x2="-43.18" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-43.18" y1="5.08" x2="53.34" y2="5.08" width="0.254" layer="94"/>
+<wire x1="53.34" y1="5.08" x2="53.34" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="53.34" y1="-2.54" x2="50.8" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="50.8" y1="-5.08" x2="-40.64" y2="-5.08" width="0.254" layer="94"/>
+<text x="-43.815" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="55.88" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="RJ45_180" urn="urn:adsk.eagle:symbol:23420497/1">
+<pin name="8" x="-10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="7" x="-7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="6" x="-5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="5" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="4" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="3" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="2" x="7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="1" x="10.16" y="-12.7" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DB37_FEM_180" urn="urn:adsk.eagle:symbol:23420498/1">
+<pin name="19" x="-45.72" y="10.16" length="middle" rot="R270"/>
+<pin name="18" x="-40.64" y="10.16" length="middle" rot="R270"/>
+<pin name="17" x="-35.56" y="10.16" length="middle" rot="R270"/>
+<pin name="16" x="-30.48" y="10.16" length="middle" rot="R270"/>
+<pin name="15" x="-25.4" y="10.16" length="middle" rot="R270"/>
+<pin name="14" x="-20.32" y="10.16" length="middle" rot="R270"/>
+<pin name="13" x="-15.24" y="10.16" length="middle" rot="R270"/>
+<pin name="12" x="-10.16" y="10.16" length="middle" rot="R270"/>
+<pin name="11" x="-5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="10" x="0" y="10.16" length="middle" rot="R270"/>
+<pin name="9" x="5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="8" x="10.16" y="10.16" length="middle" rot="R270"/>
+<pin name="7" x="15.24" y="10.16" length="middle" rot="R270"/>
+<pin name="6" x="20.32" y="10.16" length="middle" rot="R270"/>
+<pin name="5" x="25.4" y="10.16" length="middle" rot="R270"/>
+<pin name="4" x="30.48" y="10.16" length="middle" rot="R270"/>
+<pin name="3" x="35.56" y="10.16" length="middle" rot="R270"/>
+<pin name="2" x="40.64" y="10.16" length="middle" rot="R270"/>
+<pin name="1" x="45.72" y="10.16" length="middle" rot="R270"/>
+<pin name="20" x="43.18" y="-10.16" length="middle" rot="R90"/>
+<pin name="21" x="38.1" y="-10.16" length="middle" rot="R90"/>
+<pin name="22" x="33.02" y="-10.16" length="middle" rot="R90"/>
+<pin name="23" x="27.94" y="-10.16" length="middle" rot="R90"/>
+<pin name="24" x="22.86" y="-10.16" length="middle" rot="R90"/>
+<pin name="25" x="17.78" y="-10.16" length="middle" rot="R90"/>
+<pin name="26" x="12.7" y="-10.16" length="middle" rot="R90"/>
+<pin name="27" x="7.62" y="-10.16" length="middle" rot="R90"/>
+<pin name="28" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="29" x="-2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="30" x="-7.62" y="-10.16" length="middle" rot="R90"/>
+<pin name="31" x="-12.7" y="-10.16" length="middle" rot="R90"/>
+<pin name="32" x="-17.78" y="-10.16" length="middle" rot="R90"/>
+<pin name="33" x="-22.86" y="-10.16" length="middle" rot="R90"/>
+<pin name="34" x="-27.94" y="-10.16" length="middle" rot="R90"/>
+<pin name="35" x="-33.02" y="-10.16" length="middle" rot="R90"/>
+<pin name="36" x="-38.1" y="-10.16" length="middle" rot="R90"/>
+<pin name="37" x="-43.18" y="-10.16" length="middle" rot="R90"/>
+<wire x1="-45.72" y1="-5.08" x2="-48.26" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="-2.54" x2="-48.26" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-48.26" y1="5.08" x2="48.26" y2="5.08" width="0.254" layer="94"/>
+<wire x1="48.26" y1="5.08" x2="48.26" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-2.54" x2="45.72" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="45.72" y1="-5.08" x2="-45.72" y2="-5.08" width="0.254" layer="94"/>
+<text x="-48.895" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="50.8" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="DB9_FEM_180" urn="urn:adsk.eagle:symbol:23420499/1">
+<pin name="5" x="-10.16" y="10.16" length="middle" rot="R270"/>
+<pin name="4" x="-5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="3" x="0" y="10.16" length="middle" rot="R270"/>
+<pin name="2" x="5.08" y="10.16" length="middle" rot="R270"/>
+<pin name="1" x="10.16" y="10.16" length="middle" rot="R270"/>
+<pin name="6" x="7.62" y="-10.16" length="middle" rot="R90"/>
+<pin name="7" x="2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="8" x="-2.54" y="-10.16" length="middle" rot="R90"/>
+<pin name="9" x="-7.62" y="-10.16" length="middle" rot="R90"/>
+<text x="-13.335" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="15.24" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DB37_FEM_180_BIG" urn="urn:adsk.eagle:component:23420504/2">
+<gates>
+<gate name="G$1" symbol="DB37_FEM_180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_BIG" package="DB_37_FEM_180_BIG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23420500/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DB9_FEM_180" urn="urn:adsk.eagle:component:23420507/2">
+<gates>
+<gate name="G$1" symbol="DB9_FEM_180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="180" package="DB9_FEM_180">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23420503/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RJ45_FEM_180" urn="urn:adsk.eagle:component:23420505/2">
+<gates>
+<gate name="G$1" symbol="RJ45_180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RJ45_FEM_180">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23420501/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DB37_FEM_180" urn="urn:adsk.eagle:component:23420506/2">
+<gates>
+<gate name="G$1" symbol="DB37_FEM_180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="180" package="DB_37_FEM_180">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23420502/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
