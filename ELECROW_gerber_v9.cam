@@ -257,11 +257,11 @@
             ]
         },
         {
-            "filename_prefix": "CAM/Assembly",
+            "filename_prefix": "CAM",
             "output_type": "directory",
             "outputs": [
                 {
-                    "filename_format": "CAM/bom/%ASSEMBLYPREFIX/%N",
+                    "filename_format": "CAM/%ASSEMBLYPREFIX/%N",
                     "list_attribute": true,
                     "list_type": "values",
                     "name": "Bill of Material",
@@ -269,7 +269,7 @@
                     "type": "bom"
                 },
                 {
-                    "filename_format": "CAM/Assembly/PnP_%N_%BOARDSIDE",
+                    "filename_format": "CAM/PnP_%N_%BOARDSIDE",
                     "name": "Pick and Place",
                     "output_format": "txt",
                     "type": "pick_and_place"
