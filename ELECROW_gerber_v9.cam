@@ -261,12 +261,18 @@
             "output_type": "assembly",
             "outputs": [
                 {
+                    "filename_format": "CAM/PnP_%N_%BOARDSIDE",
+                    "name": "Pick and Place",
+                    "output_format": "txt",
+                    "type": "pick_and_place"
+                },
+                {
                     "filename_format": "CAM/%N",
                     "list_attribute": true,
                     "list_type": "values",
                     "name": "BOM",
-                    "output_format": "csv",
-                    "type": "bom"
+                    "output_format": "txt",
+                    "type": "BOM"
                 }
             ]
         },
