@@ -265,7 +265,7 @@
                     "name": "Pick and Place",
                     "output_format": "txt",
                     "type": "pick_and_place"
-                }
+                },
                 {
                     "filename_format": "CAM/%ASSEMBLYPREFIX/%N",
                     "list_attribute": true,
