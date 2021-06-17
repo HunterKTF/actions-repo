@@ -1,4 +1,4 @@
 import os
 
-os.chdir("/home/usr/bin/CAM/")
+os.chdir("/home/user/bin/CAM/")
 print(os.listdir())
