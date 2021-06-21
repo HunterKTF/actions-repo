@@ -43,7 +43,7 @@ def create_sheet():
     gc = getCredentials()
     files = getFiles()
     print(files)
-    title = "test"
+    title = files[0]
     sh = gc.create(title)
     sh.share(users, perm_type='user', role='writer')
     worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
@@ -112,7 +112,7 @@ for key in dict_qty:
         length = len(key)
         value = key[idx+1:length]
         mpn = value.strip(' "')
-        codigo_valiot = file[4:file.find("csv")] + '-' + str(cc)
+        codigo_valiot = file[4:file.find("_front.csv")] + '-' + str(cc)
         qty = dict_qty[key]
         concept = "pruebas"
         parts = dict_val[key]
