@@ -76,6 +76,7 @@ def init_api():
     time.sleep(10)
     return headers, params
 
+os.chdir("/home/user/bin/CAM/")
 csvFiles = getFiles()
 dict_qty = {}
 dict_val = {}
