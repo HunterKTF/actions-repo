@@ -112,7 +112,7 @@ for key in dict_qty:
         length = len(key)
         value = key[idx+1:length]
         mpn = value.strip(' "')
-        codigo_valiot = file[file.find("PnP"):file.find("csv")+1] + '-' + str(cc)
+        codigo_valiot = file[4:file.find("csv")] + '-' + str(cc)
         qty = dict_qty[key]
         concept = "pruebas"
         parts = dict_val[key]
