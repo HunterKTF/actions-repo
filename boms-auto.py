@@ -42,8 +42,7 @@ def create_sheet():
     users = share_with()
     gc = getCredentials()
     files = getFiles()
-    print(files)
-    title = files[0]
+    title = files[0][4:-1]
     sh = gc.create(title)
     sh.share(users, perm_type='user', role='writer')
     worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
