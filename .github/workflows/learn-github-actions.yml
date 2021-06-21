@@ -58,7 +58,7 @@ jobs:
       - name: remove zip
         run: rm /tmp/eagle.tar.gz
       - name: move creds file
-        run: sudo mv creds.json /home/user/bin/CAM/creds.json
+        run: sudo mv creds.json /creds.json
       - name: Install dependencies
         run: |
             sudo python -m pip install --upgrade pip
