@@ -46,7 +46,7 @@ def create_sheet():
     sh = gc.open(title)
     print(sh)
     # if !sh:
-    sh = gc.create(title)
+    sh = gc.create("testTitle")
     sh.share(users, perm_type='user', role='writer')
     worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
     time.sleep(10)
