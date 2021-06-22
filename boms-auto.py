@@ -44,10 +44,11 @@ def create_sheet():
     files = getFiles()
     title = files[0][4:-9]
     sh = gc.open(title)
-    if !sh:
-        sh = gc.create(title)
-        sh.share(users, perm_type='user', role='writer')
-        worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
+    print(sh)
+    # if !sh:
+    sh = gc.create(title)
+    sh.share(users, perm_type='user', role='writer')
+    worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
     time.sleep(10)
     return sh, worksheet
 
