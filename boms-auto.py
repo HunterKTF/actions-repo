@@ -27,7 +27,7 @@ def getFiles():
 # Function to define users to share spreadsheet
 def share_with():
     users = [
-        'rhernandez@valiot.io'
+        'jorgehernandez336@gmail.com'
     ]
     return users
 
@@ -43,9 +43,11 @@ def create_sheet():
     gc = getCredentials()
     files = getFiles()
     title = files[0][4:-9]
-    sh = gc.create(title)
-    sh.share(users, perm_type='user', role='writer')
-    worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
+    sh = gc.open(title)
+    if !sh:
+        sh = gc.create(title)
+        sh.share(users, perm_type='user', role='writer')
+        worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
     time.sleep(10)
     return sh, worksheet
 
@@ -136,4 +138,3 @@ for key in dict_qty:
 
 worksheet.update_cell(2,12,'=sum(K2:K' + str(cc+2) + ')')
 print(url)
-print("Hello World")
