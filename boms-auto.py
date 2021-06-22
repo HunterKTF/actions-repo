@@ -43,10 +43,10 @@ def create_sheet():
     gc = getCredentials()
     files = getFiles()
     title = files[0][4:-9]
-    sh = gc.open("TestTitle")
-    print(sh)
+    sh = gc.open(title)
+    print(gspread.exceptions.SpreadsheetNotFound)
     # if !sh:
-    sh = gc.create("dummy")
+    sh = gc.create(title)
     sh.share(users, perm_type='user', role='writer')
     worksheet = sh.add_worksheet(title=title, rows="100", cols="20")
     time.sleep(10)
