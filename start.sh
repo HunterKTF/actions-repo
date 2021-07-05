@@ -15,15 +15,15 @@ export EAGLE_PSW="DeltaEcho9"
 # Eagle Auto Login.
 sudo ${EAGLE_DIR}/eagle & sleep 50;
 sudo xdotool key Left;
-sleep 5;
+sleep 8;
 sudo xdotool key Return;
-sleep 5;
+sleep 8;
 sudo xdotool type ${EAGLE_USER};
-sleep 5;
+sleep 8;
 sudo xdotool key Return;
-sleep 5;
+sleep 8;
 sudo xdotool type ${EAGLE_PSW};
-sleep 5;
+sleep 8;
 sudo xdotool key Return;
 sleep 10;
 sudo kill $(pidof ${EAGLE_DIR}/eagle);
