@@ -13,17 +13,17 @@ export EAGLE_USER="rhernandez@valiot.io"
 export EAGLE_PSW="DeltaEcho9"
 
 # Eagle Auto Login.
-sudo ${EAGLE_DIR}/eagle & sleep 50;
+sudo ${EAGLE_DIR}/eagle & sleep 40;
 sudo xdotool key Left;
-sleep 8;
+sleep 10;
 sudo xdotool key Return;
-sleep 8;
+sleep 10;
 sudo xdotool type ${EAGLE_USER};
-sleep 8;
+sleep 10;
 sudo xdotool key Return;
-sleep 8;
+sleep 10;
 sudo xdotool type ${EAGLE_PSW};
-sleep 8;
+sleep 10;
 sudo xdotool key Return;
 sleep 10;
 sudo kill $(pidof ${EAGLE_DIR}/eagle);
