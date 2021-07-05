@@ -35,7 +35,7 @@ def share_with():
 def getCredentials():
     scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
     CREDENTIALS = os.getenv('credentials')
-    creds = ServiceAccountCredentials.from_json_keyfile_name("/creds.json", scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS, scope)
     time.sleep(10)
     return gspread.authorize(creds)
 
