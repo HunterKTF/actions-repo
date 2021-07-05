@@ -69,5 +69,5 @@ jobs:
         env:
           credentials: ${{ secrets.credentials }}
         run: echo Hello World
-      # - name: run python file
-      #   run: sudo python3 /home/user/bin/CAM/boms-auto.py
+      - name: run python file
+        run: sudo python3 /home/user/bin/CAM/boms-auto.py
