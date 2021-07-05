@@ -65,6 +65,8 @@ jobs:
             sudo pip3 install -r requirements.txt
       - name: grant permissions to python file
         run: sudo chmod +x /home/user/bin/CAM/boms-auto.py
-      - name: run python file
-        run: sudo python3 /home/user/bin/CAM/boms-auto.py
-        
+      - name: create env secret
+        env:
+          credentials: ${{ secrets.credentials }}
+      # - name: run python file
+      #   run: sudo python3 /home/user/bin/CAM/boms-auto.py
