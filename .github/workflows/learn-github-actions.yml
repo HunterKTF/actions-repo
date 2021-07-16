@@ -1,7 +1,16 @@
 name: github-actions-test
-on: [push]
+on:
+  push:
+    tags: 
+      - 'v*'
+    branches:
+      - main
+  page_build:
+  release:
+    types:
+      - creates
 jobs:
-  check-bats-version:
+  automate-bom-generation:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
@@ -71,3 +80,17 @@ jobs:
         run: echo Hello World
       - name: run python file
         run: sudo python3 /home/user/bin/CAM/boms-auto.py
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Changes in this Release
+            - First Change
+            - Second Change
+          draft: false
+          prerelease: false
