@@ -19,7 +19,7 @@ from pprint import pprint
 
 # Function to retrieve file contents
 def getFiles():
-    path = '/Users/jorgehernandez/github/mikroBUS-Valiot/Acelerometro_PCB/sourcing/CAM/Assembly/'
+    path = '/home/user/bin/CAM/Assembly/'
     pnp_files = []
     files = os.listdir(path)
     for x in files:
