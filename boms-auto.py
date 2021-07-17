@@ -19,7 +19,7 @@ from pprint import pprint
 
 # Function to retrieve file contents
 def getFiles():
-    path = '/home/user/bin/CAM/Assembly/'
+    path = '/home/user/bin/CAM/'
     pnp_files = []
     files = os.listdir(path)
     for x in files:
