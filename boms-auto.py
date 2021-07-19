@@ -156,4 +156,5 @@ for key in dict_qty:
         print(mpn)
         cc+=1
 
+print("exit")
 worksheet.update_cell(2,12,'=sum(K2:K' + str(cc+2) + ')')
