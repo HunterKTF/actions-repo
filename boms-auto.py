@@ -42,7 +42,7 @@ def getCredentials():
         'https://www.googleapis.com/auth/drive'
     ]
     creds = ServiceAccountCredentials.from_json_keyfile_name("/creds.json", scope)
-    time.sleep(10)
+    time.sleep(15)
     return gspread.authorize(creds)
 
 def create_sheet():
@@ -53,6 +53,7 @@ def create_sheet():
     files = getFiles()
     title = "final_test3" # files[0][4:-9]
     spreadsheets_files = gc.list_spreadsheet_files()
+    time.sleep(5)
 
     for sheets in spreadsheets_files:
         sheets_list.append(sheets["name"])
@@ -141,6 +142,7 @@ for key in dict_qty:
         data = qString1 + mpn + qString2
         response = requests.post('https://api.mouser.com/api/v1/search/partnumber', headers=headers, params=params, data=data)
         q_url = response.json()
+        time.sleep(10)
         worksheet.update_cell(cc+2,1,codigo_valiot)
         worksheet.update_cell(cc+2,2,concept)
         worksheet.update_cell(cc+2,3,mpn)
@@ -152,7 +154,7 @@ for key in dict_qty:
         worksheet.update_cell(cc+2,9,qty)
         worksheet.update_cell(cc+2,10,q_url["SearchResults"]["Parts"][0]["PriceBreaks"][0]["Price"])
         worksheet.update_cell(cc+2,11,worksheet.cell(cc+2, 9, value_render_option='FORMULA').value * worksheet.cell(cc+2, 10, value_render_option='FORMULA').value)
-        time.sleep(10)
+        time.sleep(20)
         print(mpn)
         cc+=1
 
