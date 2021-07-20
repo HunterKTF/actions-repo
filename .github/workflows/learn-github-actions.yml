@@ -89,6 +89,11 @@ jobs:
         run: echo Hello World
       - name: run python file
         run: sudo python3 /home/user/bin/CAM/boms-auto.py
+      - name: Archive code coverage results
+        uses: actions/upload-artifact@v2
+        with:
+          name: code-coverage-report
+          path: output/test/code-coverage.html
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
